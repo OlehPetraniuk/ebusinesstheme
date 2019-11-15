@@ -60,5 +60,20 @@
     manualAdvance: false,
   });
 
+  /*----------------------------
+   Scrollspy js
+  ------------------------------ */
+  var Body = $('body');
+  Body.scrollspy({
+    target: '.navbar-collapse',
+    offset: 80
+  });
+
+  /*---------------------
+    Venobox
+  --------------------- */
+  var veno_box = $('.venobox');
+  veno_box.venobox();
+
 
 });
