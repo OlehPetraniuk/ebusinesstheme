@@ -710,3 +710,80 @@ div#preloader {
   width: 100%;
   padding: 0px 10px;
 }
+
+/*----------------------------------------
+ 7.Wellcome Area Css
+----------------------------------------*/
+
+.wellcome-area {
+  background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.well-bg {
+  position: relative;
+}
+
+.wellcome-text {
+  margin: 70px 0;
+  padding: 30px 40px;
+}
+
+.well-text>h2 {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.well-text p {
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+}
+
+.wellcome-text .section-headline p {
+  margin-bottom: 0;
+}
+
+.subs-feilds {
+  border: 1px solid #fff;
+  display: inline-block;
+  height: 52px;
+  margin-top: 30px;
+  width: 60%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.suscribe-input input {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  float: left;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 11px 15px;
+  width: 70%;
+  height: 50px;
+}
+
+.suscribe-input button {
+  background: #3ec1d5 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  float: left;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 14px 20px;
+  width: 30%;
+}
+
+.suscribe-input button:hover {
+  background: #fff none repeat scroll 0 0;
+  color: #3ec1d5;
+}
