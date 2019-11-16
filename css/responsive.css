@@ -270,3 +270,30 @@
     margin-left: 0;
   }
 }
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .submitbtn {
+    float: none;
+    width: 99.8%;
+  }
+  .icons-bottom ul li a {
+    height: 40px;
+    line-height: 37px;
+    width: 40px;
+  }
+  .blog-post-dlc ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .awesome-portfolio-content .portfolio-2 {
+    width: 50%;
+  }
+  .gallary-details .single-awesome-portfolio {
+    width: 50%;
+  }
+  .tab-menu ul.nav li a {
+    padding: 8px 20px;
+  }
+}
