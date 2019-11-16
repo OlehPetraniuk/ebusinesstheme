@@ -18,3 +18,100 @@
       line-height: 28px;
     }
   }
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu ul.navbar-nav li {
+    display: inline-block;
+    padding: 0 8px;
+  }
+  .layer-1-1 h2 {
+    font-size: 24px;
+  }
+  .layer-1-2 h1 {
+    font-size: 31px;
+    line-height: 38px;
+    padding: 0px 30px;
+  }
+  .stick .main-menu ul.navbar-nav li a {
+    padding: 24px 0px;
+  }
+  .tab-menu ul.nav li a {
+    padding: 10px 16px;
+  }
+  .suscribe-input input {
+    width: 60%;
+  }
+  .suscribe-input button {
+    width: 40%;
+  }
+  .team-content.text-center>h4 {
+    font-size: 20px;
+  }
+  .sus-btn {
+    margin-left: 0;
+  }
+  .suscribe-text h3 {
+    font-size: 16px;
+    padding-right: 20px;
+  }
+  .work-right-text h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .work-right-text {
+    padding: 36px 0;
+  }
+  .work-right-text h2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .work-right-text .ready-btn {
+    font-size: 13px;
+    padding: 7px 20px;
+    margin-top: 5px;
+  }
+  .single-awesome-portfolio {
+    width: 33.33%;
+  }
+  .widget-product a img {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .widget-product .product-info {
+    display: block;
+    float: none;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .map-column {
+    margin-left: 0;
+    padding-right: 40px;
+  }
+  .post-information .entry-meta {
+    font-size: 13px;
+    padding: 5px 0;
+  }
+  .post-information .entry-meta span a {
+    padding: 4px 0;
+  }
+  .service-pic {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .single-add-itms {
+    width: 50%;
+  }
+  .left-sidebar-title>h4 {
+    font-size: 18px;
+  }
+  .contact-form {
+    margin-top: 0px;
+  }
+  .search-option input {
+    width: 67%;
+  }
+}
