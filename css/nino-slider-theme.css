@@ -319,3 +319,72 @@ preview-1
   background: #000;
   cursor: pointer;
 }
+
+/* -------------------------------------
+preview-2
+---------------------------------------- */
+
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+  left: 50px;
+}
+
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav {
+  right: 50px;
+}
+
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  font-size: 0;
+}
+
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  font-size: 0;
+}
+
+.preview-2 .nivo-directionNav a.nivo-prevNav::before {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #ffffff;
+  content: "";
+  cursor: pointer;
+  font: 300 50px/50px FontAwesome;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transition: all 300ms ease-in 0s;
+  z-index: 9;
+  font-weight: 100;
+  left: 0px;
+  width: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.preview-2 .nivo-directionNav a.nivo-nextNav:hover:before, .preview-2 .nivo-directionNav a.nivo-prevNav:hover:before {
+  border-color: #3EC1D5;
+  color: #fff;
+  background: #3EC1D5;
+}
+
+.preview-2 .nivo-directionNav a.nivo-nextNav::before {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #ffffff;
+  content: "";
+  cursor: pointer;
+  font: 100 30px/50px FontAwesome;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 50%;
+  transition: all 300ms ease-in 0s;
+  width: 50px;
+  z-index: 9;
+  font-size: 30px;
+}
+
+.niceties.preview-2 {
+  position: relative;
+  height: 100%;
+}
