@@ -25,7 +25,7 @@
     }
   });
 
-   /*----------------------------
+  /*----------------------------
    Navbar nav
   ------------------------------ */
   var main_menu = $(".main-menu ul.navbar-nav li ");
@@ -141,7 +141,6 @@
       }
     }
   });
-
   /*----------------------------
    isotope active
   ------------------------------ */
@@ -174,11 +173,12 @@
     });
 
   });
+  //portfolio end
 
   /*---------------------
    Circular Bars - Knob
 --------------------- */
-if (typeof($.fn.knob) != 'undefined') {
+  if (typeof($.fn.knob) != 'undefined') {
     var knob_tex = $('.knob');
     knob_tex.each(function() {
       var $this = $(this),
